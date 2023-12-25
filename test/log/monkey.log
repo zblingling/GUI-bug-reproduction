@@ -1,0 +1,135 @@
+  bash arg: -p
+  bash arg: protect.budgetwatch
+  bash arg: -v
+  bash arg: 500
+args: [-p, protect.budgetwatch, -v, 500]
+ arg: "-p"
+ arg: "protect.budgetwatch"
+ arg: "-v"
+ arg: "500"
+data="protect.budgetwatch"
+:Monkey: seed=1703764111511 count=500
+:AllowPackage: protect.budgetwatch
+:IncludeCategory: android.intent.category.LAUNCHER
+:IncludeCategory: android.intent.category.MONKEY
+// Event percentages:
+//   0: 15.0%
+//   1: 10.0%
+//   2: 2.0%
+//   3: 15.0%
+//   4: -0.0%
+//   5: -0.0%
+//   6: 25.0%
+//   7: 15.0%
+//   8: 2.0%
+//   9: 2.0%
+//   10: 1.0%
+//   11: 13.0%
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=protect.budgetwatch/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=protect.budgetwatch/.MainActivity } in package protect.budgetwatch
+:Sending Touch (ACTION_DOWN): 0:(1073.0,1743.0)
+:Sending Touch (ACTION_UP): 0:(1026.999,1700.5375)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(660.0,1403.0)
+:Sending Touch (ACTION_UP): 0:(664.3975,1419.0321)
+:Sending Touch (ACTION_DOWN): 0:(868.0,320.0)
+:Sending Touch (ACTION_UP): 0:(849.9394,336.30157)
+:Sending Trackball (ACTION_MOVE): 0:(4.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(1057.0,1095.0)
+:Sending Touch (ACTION_UP): 0:(1021.3631,1119.8535)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,1.0)
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(489.0,230.0)
+:Sending Touch (ACTION_UP): 0:(485.60846,182.10117)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(567.0,105.0)
+:Sending Touch (ACTION_UP): 0:(567.5977,102.64464)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-5.0)
+    //[calendar_time:2023-12-25 20:30:14.832  system_uptime:9890400]
+    // Sending event #100
+:Sending Trackball (ACTION_UP): 0:(0.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(628.0,38.0)
+:Sending Touch (ACTION_UP): 0:(621.2694,46.158302)
+:Sending Touch (ACTION_DOWN): 0:(61.0,1398.0)
+:Sending Touch (ACTION_UP): 0:(58.57998,1394.5795)
+:Sending Touch (ACTION_DOWN): 0:(822.0,1125.0)
+:Sending Touch (ACTION_UP): 0:(828.2809,1117.9558)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(30.0,2082.0)
+:Sending Touch (ACTION_UP): 0:(19.503551,2078.8643)
+:Sending Touch (ACTION_DOWN): 0:(525.0,1138.0)
+:Sending Touch (ACTION_UP): 0:(533.1597,1154.8589)
+:Sending Touch (ACTION_DOWN): 0:(219.0,1770.0)
+:Sending Touch (ACTION_UP): 0:(269.54547,1710.132)
+:Sending Touch (ACTION_DOWN): 0:(364.0,768.0)
+:Sending Touch (ACTION_UP): 0:(369.08136,777.9033)
+:Sending Touch (ACTION_DOWN): 0:(925.0,1436.0)
+:Sending Touch (ACTION_UP): 0:(922.7823,1427.8228)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=protect.budgetwatch/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=protect.budgetwatch/.MainActivity } in package protect.budgetwatch
+:Sending Touch (ACTION_DOWN): 0:(1046.0,1515.0)
+:Sending Touch (ACTION_UP): 0:(927.6662,1488.5359)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,2.0)
+:Sending Touch (ACTION_DOWN): 0:(914.0,796.0)
+    //[calendar_time:2023-12-25 20:30:15.849  system_uptime:9891414]
+    // Sending event #200
+:Sending Touch (ACTION_UP): 0:(850.0609,809.9896)
+:Sending Touch (ACTION_DOWN): 0:(139.0,1393.0)
+:Sending Touch (ACTION_UP): 0:(114.09989,1330.2134)
+:Sending Trackball (ACTION_MOVE): 0:(1.0,3.0)
+:Sending Trackball (ACTION_MOVE): 0:(-1.0,-1.0)
+:Sending Touch (ACTION_DOWN): 0:(418.0,959.0)
+:Sending Touch (ACTION_UP): 0:(433.29242,991.43915)
+:Sending Touch (ACTION_DOWN): 0:(599.0,1090.0)
+:Sending Touch (ACTION_UP): 0:(562.0644,1181.7979)
+:Sending Touch (ACTION_DOWN): 0:(292.0,1972.0)
+:Sending Touch (ACTION_UP): 0:(294.90012,1972.6526)
+:Sending Touch (ACTION_DOWN): 0:(318.0,1252.0)
+:Sending Touch (ACTION_UP): 0:(316.35446,1253.8501)
+:Sending Touch (ACTION_DOWN): 0:(209.0,405.0)
+:Sending Touch (ACTION_UP): 0:(210.89673,398.59473)
+:Sending Touch (ACTION_DOWN): 0:(778.0,198.0)
+:Sending Touch (ACTION_UP): 0:(767.13837,197.7474)
+:Sending Touch (ACTION_DOWN): 0:(68.0,258.0)
+:Sending Touch (ACTION_UP): 0:(59.694256,245.39966)
+:Sending Touch (ACTION_DOWN): 0:(80.0,1197.0)
+:Sending Touch (ACTION_UP): 0:(75.57434,1206.7894)
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-3.0)
+:Sending Touch (ACTION_DOWN): 0:(746.0,281.0)
+    //[calendar_time:2023-12-25 20:30:17.369  system_uptime:9892934]
+    // Sending event #300
+:Sending Touch (ACTION_UP): 0:(644.5041,124.56648)
+:Sending Touch (ACTION_DOWN): 0:(312.0,1618.0)
+:Sending Touch (ACTION_UP): 0:(331.64105,1618.5487)
+:Sending Touch (ACTION_DOWN): 0:(1003.0,1318.0)
+:Sending Touch (ACTION_UP): 0:(986.5618,1326.0677)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=protect.budgetwatch/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=protect.budgetwatch/.MainActivity } in package protect.budgetwatch
+:Sending Touch (ACTION_DOWN): 0:(706.0,1788.0)
+:Sending Touch (ACTION_UP): 0:(774.71436,1723.1289)
+:Sending Touch (ACTION_DOWN): 0:(263.0,894.0)
+:Sending Touch (ACTION_UP): 0:(229.98346,914.96027)
+:Switch: #Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;launchFlags=0x10200000;component=protect.budgetwatch/.MainActivity;end
+    // Allowing start of Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=protect.budgetwatch/.MainActivity } in package protect.budgetwatch
+:Sending Touch (ACTION_DOWN): 0:(959.0,915.0)
+:Sending Touch (ACTION_UP): 0:(969.97107,927.0776)
+:Sending Trackball (ACTION_MOVE): 0:(3.0,-4.0)
+:Sending Touch (ACTION_DOWN): 0:(511.0,806.0)
+:Sending Touch (ACTION_UP): 0:(510.46362,806.03754)
+:Sending Trackball (ACTION_MOVE): 0:(2.0,0.0)
+:Sending Touch (ACTION_DOWN): 0:(990.0,164.0)
+:Sending Touch (ACTION_UP): 0:(1004.8029,134.81357)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,0.0)
+    //[calendar_time:2023-12-25 20:30:18.247  system_uptime:9893812]
+    // Sending event #400
+    //[calendar_time:2023-12-25 20:30:18.250  system_uptime:9893815]
+    // Sending event #400
+:Sending Trackball (ACTION_MOVE): 0:(-3.0,-4.0)
+:Sending Trackball (ACTION_MOVE): 0:(0.0,-2.0)
+:Sending Trackball (ACTION_MOVE): 0:(-4.0,-2.0)
+:Sending Touch (ACTION_DOWN): 0:(464.0,1899.0)
+:Sending Touch (ACTION_UP): 0:(464.37283,1940.2041)
+:Sending Touch (ACTION_DOWN): 0:(1036.0,1559.0)
+:Sending Touch (ACTION_UP): 0:(1036.7238,1555.3667)
